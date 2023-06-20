@@ -3,6 +3,7 @@ package com.spring.blog.entity;
 import lombok.*;
 
 import java.sql.Date;
+import java.time.LocalDateTime;
 
 // 역직렬화(디비 -> 자바객체)가 가능하도록 blog 테이블 구조에 맞춰서 멤버변수를 선언해주세요.
 @Getter @Setter
@@ -16,9 +17,9 @@ public class Blog {
 
     private String blogContent;
 
-    private Date publishedAt;
+    private LocalDateTime publishedAt;
 
-    private Date updatedAt;
+    private LocalDateTime updatedAt;
 
     private long blogCount;
 }
