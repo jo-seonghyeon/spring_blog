@@ -29,10 +29,13 @@ dependencies {
 	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
 	implementation group: 'org.glassfish.web', name: 'jakarta.servlet.jsp.jstl', version: '2.0.0'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+<<<<<<< HEAD
 	implementation 'org.springframework.boot:spring-boot-starter-security:3.1.0'
 	testImplementation 'org.springframework.security:spring-security-test:6.1.0'
 
 
+=======
+>>>>>>> 00faa03f98e1569fdc9497ef4d2cd0e71044e94a
 }
 
 tasks.named('test') {
